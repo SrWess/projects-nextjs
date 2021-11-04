@@ -15,23 +15,27 @@ export const GlobalStyles = createGlobalStyle`
   body {
     font-size: 1.6rem;
     font-family: ${({ theme }) => theme.font.family.default};
+    background: #0C0C0C;
   }
 
   h1, h2, h3, h4, h5, h6 {
     font-family: ${({ theme }) => theme.font.family.secondary};
     margin: ${({ theme }) => theme.spacings.large} 0;
+    color: ${({ theme }) => theme.colors.white}
   }
 
   p {
     margin: ${({ theme }) => theme.spacings.medium} 0;
+    color: ${({ theme }) => theme.colors.white}
   }
 
   ul, ol {
-    margin: ${({ theme }) => theme.spacings.medium};
-    padding: ${({ theme }) => theme.spacings.medium};
+    /* margin: ${({ theme }) => theme.spacings.medium}; */
+    /* padding: ${({ theme }) => theme.spacings.medium}; */
+    color: ${({ theme }) => theme.colors.white}
   }
 
   a {
-    color: ${({ theme }) => theme.colors.secondaryColor};
+    color: ${({ theme }) => theme.colors.white}
   }
 `;
