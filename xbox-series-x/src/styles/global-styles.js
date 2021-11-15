@@ -38,4 +38,8 @@ export const GlobalStyles = createGlobalStyle`
   a {
     color: ${({ theme }) => theme.colors.white}
   }
+
+  span {
+    color: ${({ theme }) => theme.colors.white}
+  }
 `;
