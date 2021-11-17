@@ -1,7 +1,5 @@
 import styled, { css } from 'styled-components';
 
-import ImgXboxOne from '../../assets/img/xbox-one.png';
-
 export const HeroContainer = styled.main`
   width: 70%;
 
